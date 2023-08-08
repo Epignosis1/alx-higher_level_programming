@@ -2,5 +2,4 @@
 for i in range(ord('a'), ord('z')+1):
     if i == ord('q') or i == ord('e'):
         continue
-    print("{0}".format(chr(i)), end = '')
-
+    print("{0}".format(chr(i)), end='')
